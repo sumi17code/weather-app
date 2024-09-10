@@ -7,3 +7,39 @@
 body{
     background-color:#222;
 }
+
+.card{
+    width:100%;
+    max-width:500px;
+    background: linear-gradient(140deg, #00fefee3, #54588ac3);
+    color: #ffff;
+    margin: 100px auto 0;
+    padding: 40px 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.search{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    color: #555555;
+    background: #ebfcffcd;
+    padding: 10px 25px;
+    border-radius: 30px;
+    height: 60px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+
+
+}
+
+.search button{
+    
+}
